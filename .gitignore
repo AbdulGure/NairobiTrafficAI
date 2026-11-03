@@ -1,0 +1,9 @@
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated simulation results
+results/

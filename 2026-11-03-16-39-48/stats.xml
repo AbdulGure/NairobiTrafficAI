@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-03T17:32:18.374231+00:00 by Eclipse SUMO sumo 1.28.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/katana/Documents/NairobiTrafficAI/2026-11-03-16-39-48/osm.tls.net.xml.gz"/>
+        <route-files value="/Users/katana/Documents/NairobiTrafficAI/2026-11-03-16-39-48/osm.passenger.trips.xml,/Users/katana/Documents/NairobiTrafficAI/2026-11-03-16-39-48/osm_pt.rou.xml"/>
+        <additional-files value="/Users/katana/Documents/NairobiTrafficAI/2026-11-03-16-39-48/osm.poly.xml.gz,/Users/katana/Documents/NairobiTrafficAI/2026-11-03-16-39-48/osm_stops.add.xml,/Users/katana/Documents/NairobiTrafficAI/2026-11-03-16-39-48/output.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="/Users/katana/Documents/NairobiTrafficAI/results/adaptive_3x_tripinfo.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+        <stop-output value="/Users/katana/Documents/NairobiTrafficAI/2026-11-03-16-39-48/stopinfos.xml"/>
+        <statistic-output value="/Users/katana/Documents/NairobiTrafficAI/2026-11-03-16-39-48/stats.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="900"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <scale value="3"/>
+        <tls.actuated.jam-threshold value="30"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="60493"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="/Users/katana/Documents/NairobiTrafficAI/2026-11-03-16-39-48/osm.view.xml"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <performance clockBegin="1793727138.38" clockEnd="1793727152.60" clockDuration="14.21" traciDuration="13.94" realTimeFactor="63.32" vehicleUpdatesPerSecond="10636.77" personUpdatesPerSecond="0.00" begin="0.00" end="900.00" duration="900.00"/>
+    <vehicles loaded="492" inserted="482" running="260" waiting="10"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0" emergencyBraking="0"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <personTeleports total="0" abortWait="0" wrongDest="0"/>
+    <vehicleTripStatistics count="482" routeLength="913.36" speed="3.42" duration="313.67" waitingTime="179.18" timeLoss="237.72" departDelay="4.18" departDelayWaiting="142.50" totalTravelTime="151191.00" totalDepartDelay="3442.47"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>
