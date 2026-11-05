@@ -21,7 +21,7 @@ title: Nairobi Traffic AI — Research Report
 3. [Technical architecture](#3-technical-architecture)
 4. [Environment, data and setup record](#4-environment-data-and-setup-record)
 5. [Simulation experiments and results](#5-simulation-experiments-and-results)
-6. [Congestion analysis of the 103 controllers(#6-congestion-analysis-of-the-103-controllers)
+6. [Congestion analysis of the 103 controllers](#6-congestion-analysis-of-the-103-controllers)
 7. [Interpretation, limitations and lessons](#7-interpretation-limitations-and-lessons)
 8. [Adaptive V2 and system roadmap](#8-adaptive-v2-and-system-roadmap)
 9. [Reproduction instructions](#9-reproduction-instructions)
