@@ -27,6 +27,7 @@ title: Nairobi Traffic AI — Research Report
 9. [Reproduction instructions](#9-reproduction-instructions)
 10. [Customer validation and go-to-market](#10-customer-validation-and-go-to-market)
 11. [Experiment register and next actions](#11-experiment-register-and-next-actions)
+12. [Read the Adaptive V2 Research Report](ADAPTIVE_V2_RESULTS.html)
 
 ---
 
